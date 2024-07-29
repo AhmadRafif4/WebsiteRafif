@@ -15,31 +15,31 @@
 // let input= document.getElementById("input")
 // console.log(input)
 
-// input.setAttribute("type", "checkbox")
-// let te = document.getElementById("input")
-// input.style.bordercolor = "red"
-// input.style.color = "coral"
+ input.setAttribute("type", "checkbox")
+ let te = document.getElementById("input")
+ input.style.bordercolor = "red"
+ input.style.color = "coral"
 
-// const pElement = document.createElement("p")
-// const divEl = document.getElementById("div-1")
+ const pElement = document.createElement("p")
+ const divEl = document.getElementById("div-1")
 
-// divEl.appendChild(pElement)
-// pElement.innerHTML = "Halo Dunia p"
+ divEl.appendChild(pElement)
+ pElement.innerHTML = "Halo Dunia p"
 
-// divEl.removeChild(pElement)
+ divEl.removeChild(pElement)
 
-// const hello = document.getElementById("hello")
+ const hello = document.getElementById("hello")
 
-// hello.addEventListener("mouseenter", function () {
-//     // console.log("Mouse enter hallo dunia text")
-//     hello.style.border = "3px solid green"
-// })
+ hello.addEventListener("mouseenter", function () {
+      console.log("Mouse enter hallo dunia text")
+     hello.style.border = "3px solid green"
+ })
 
-// const btn = document.getElementById("btn")
-// btn.addEventListener("click", function(){
-//     const duaar = document.getElementById("boom")
-//     duaar.style.display = "block"
-// })
+ const btn = document.getElementById("btn")
+ btn.addEventListener("click", function(){
+     const duaar = document.getElementById("boom")
+     duaar.style.display = "block"
+ })
 
 function showduaar() {
     const duaar = document.getElementById("duaar")
